@@ -49,7 +49,7 @@ public class DispatcherServlet extends HttpServlet {
 
 			MysqlUtil.closeConnection();
 		} else {
-			rq.print("올바른 요청이 아닙니다.");
+			rq.print("올바른 요청이 아닙니다!.");
 		}
 	}
 
